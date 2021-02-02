@@ -15,6 +15,6 @@ Visit http://www.coresystems.de/ for more information.
 
 Disable SIP if it's not already disabled. Then simply:
 
-	git clone https://github.com/sigma-1/directhw.git
+	git clone https://github.com/CloverHackyColor/directhw.git
 	cd directhw
 	make && sudo make install
