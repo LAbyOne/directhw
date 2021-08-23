@@ -19,7 +19,7 @@
 all: main libs
 
 main:
-	xcodebuild -alltargets
+	xcodebuild -alltargets ALWAYS_SEARCH_USER_PATHS=NO -sdk macosx
 
 libs: DirectHW.c DirectHW.h
 	$(CC) DirectHW.c -dynamiclib -framework IOKit -o libDirectHW.dylib
